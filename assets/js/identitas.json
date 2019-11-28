@@ -1,0 +1,56 @@
+
+    
+    {
+        "barang":[
+                {
+                    "id"    : 1,
+                    "img"   : "gambar1",
+                    "nama"  : "USB TYPE C",
+                    "harga" : "Rp30.000,-"
+                },
+                {
+                    "id"    : 2,
+                    "img"   : "gambar2",
+                    "nama"  : "HDD SEAGATE 1TB",
+                    "harga" : "Rp500.000,-"
+                },
+                {
+                    "id"    : 3,
+                    "img"   : "gambar3",
+                    "nama"  : "MONITOR 4K LG",
+                    "harga" : "Rp5.000.000,-"
+                },
+                {
+                    "id"    : 4,
+                    "img"   : "gambar4",
+                    "nama"  : "PLAYSTATION 4",
+                    "harga" : "Rp3.875.000,-"
+                },
+                {
+                    "id"    : 5,
+                    "img"   : "gambar5",
+                    "nama"  : "PLAYSTATION 4 GOLDEN",
+                    "harga" : "Rp7.000.000,-"
+                },
+                {
+                    "id"    : 6,
+                    "img"   : "gambar6",
+                    "nama"  : "PS 4 GOLD CONTROLLER",
+                    "harga" : "Rp24.000,-"
+                },
+                {
+                    "id"    : 7,
+                    "img"   : "gambar7",
+                    "nama"  : "PS 4 ROSE GOLD CONTROLLER",
+                    "harga" : "Rp24.000,-"
+                },
+                {
+                    "id"    : 8,
+                    "img"   : "gambar8",
+                    "nama"  : "PS 4 TRANSPARAN CONTROLLER",
+                    "harga" : "Rp24.000,-"
+                }
+                
+                
+            ]
+    }
