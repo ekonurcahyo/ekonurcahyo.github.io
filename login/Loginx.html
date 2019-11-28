@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
+	<script>
+		function authuser(){
+			var sukses = false;
+			var user = ['Eko', 'Admin', 'User'];
+			var password = ['Eko', 'admin', 'user99'];
+
+			var name = document.getElementById("username").value;
+			var pass = document.getElementById("password").value;
+
+			if ((name == null || name == '') || (pass == null || pass =='')) {
+				alert("Semua Input Harus Di isi!!!");
+				return;
+			}else{
+				for (var i = 0; i<user.length; i++){
+					if(user[i].toLowerCase() == name.toLowerCase() && password[i].toLowerCase() == pass.toLowerCase()){
+						document.location.href = "single-video.html";
+						sukses = true;
+						break;
+					}
+				}
+				if(!sukses){
+					alert("Salah Memasukan Password");
+					return;
+				}
+			}
+		}
+	</script>
+<body>
+	<div class="container">
+		<div class="main">Login</div>
+		<br><br>
+
+		<div class="username">Username<br>
+			<input type="text" id="username" placeholder="Masukan Username"></div>
+
+		<div class="password">Password<br>
+			<input type="password" id="password" placeholder="Masukan Password"></div>
+
+		<div><button type="button" class="button" onclick="authuser();">Login</button></div>
+	</div>
+</body>
+</html>
